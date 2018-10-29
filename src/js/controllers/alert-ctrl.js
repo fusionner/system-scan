@@ -7,6 +7,9 @@ angular
     .controller('AlertsCtrl', ['$scope', AlertsCtrl]);
 
 function AlertsCtrl($scope) {
+
+    console.log("loading alerts ctrl");
+    
     $scope.alerts = [];
 
     $scope.addAlert = function() {
